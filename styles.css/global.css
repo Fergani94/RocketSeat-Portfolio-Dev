@@ -1,0 +1,37 @@
+* { 
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root { 
+
+  /* CORES DAS FONTES */
+  --font-red: #e3646e;
+  --font-purple: #bb72e9;
+  --font-blue: #3996DB;
+  --font-green: #82BC4F;
+  --font-yellow: #EABD5F;
+  --font-gray100: #0D0E11;
+  --font-gray200: #16181D;
+  --font-gray300: #292C34;
+  --font-gray400: #878EA1;
+  --font-gray500: #C0C4CE;
+  --font-gray600: #E2E4E9;
+
+  /* FONT FAMILIES */
+  --asap: "Asap", sans-serif;
+  --inconsolata: "Inconsolata", monospace;
+  --maven-pro: "Maven Pro", sans-serif;
+
+  /*FONT SIZES*/
+
+  --font-asap-lg: 56px/120% var(--asap);
+  --font-asap-md: 24px/120% var(--asap);
+  --font-asap-sm: 16px/120% var(--asap);
+  --font-inconsolata: 20px/120% var(--inconsolata);
+  --font-mavenpro-md: 16px/140% var(--maven-pro);
+  --font-mavenpro-sm: 14px/140% var(--maven-pro);
+
+
+}
