@@ -1,0 +1,10 @@
+.subtitle { 
+  font: var(--font-mavenpro-sm);
+  color: var(--font-gray400);
+  letter-spacing: 0.6px;
+}
+
+h1 { 
+  font: var(--font-asap-lg);
+  color: var(--font-gray600);
+}
