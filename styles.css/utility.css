@@ -8,3 +8,19 @@ h1 {
   font: var(--font-asap-lg);
   color: var(--font-gray600);
 }
+
+.red-highlight { 
+  font: var(--font-inconsolata);
+  color: var(--font-red);
+}
+
+.title-md { 
+  font: var(--font-asap-md);
+  color: var(--font-gray600);
+}
+
+.title-sm{ 
+  font: var(--font-asap-sm);
+  color: var(--font-gray600);
+}
+

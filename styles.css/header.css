@@ -38,10 +38,6 @@ p {
   color: var(--font-gray500);
   letter-spacing: 1.7px;
   text-align: center;
-  span{ 
-    color: var(--font-red);
-  
-  }
 
 }
 
@@ -68,7 +64,6 @@ p {
   img { 
     /* position: relative; */
     margin-top: 55px;
-    /* border: solid 1px blue; */
     aspect-ratio: 1/1;
     width: 24px;
     height: 24px;
@@ -85,16 +80,3 @@ p {
   }
 }
 
-
-/* Tag */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 8px 16px;
-gap: 8px;
-
-width: 105px;
-height: 40px;

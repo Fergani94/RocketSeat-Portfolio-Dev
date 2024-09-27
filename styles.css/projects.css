@@ -1,0 +1,48 @@
+main { 
+  background-color: var(--font-gray200);
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 72px;
+  padding-bottom: 93px;
+  box-sizing: border-box;
+}
+
+.projects { 
+  display: grid;
+  box-sizing: border-box;
+  justify-content: space-around;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding-bottom: 124px;
+  padding-inline: 80px;
+  img { 
+    width: 306;
+    height: 156;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 24px;
+  }
+}
+
+.project { 
+  height: 380px;
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding:12px;
+  border-radius: 12px;
+  background-color: var(--font-gray300);
+  p {
+    text-align: start; 
+    font: var(--font-mavenpro-sm);
+    color: var(--font-gray500);
+
+  }
+
+}
