@@ -1,0 +1,25 @@
+.services { 
+  background-color: var(--font-gray100);
+  }
+
+#services-icons { 
+  display: grid;
+  grid-template-columns: 330px 330px 330px;
+  gap: 24px;
+  justify-content: space-around;
+  padding-inline: 25%;
+  padding-bottom: 120px;
+  div{ 
+  border-radius: 12px;
+  padding: 20px;
+  border: solid 1px var(--font-gray300);
+  }
+  img {
+    margin-bottom: 20px;
+  }
+  p{ 
+    text-align: start;
+    font: var(--font-mavenpro-sm);
+    letter-spacing: 1px;
+  }
+}

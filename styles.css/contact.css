@@ -1,0 +1,59 @@
+#contato { 
+  
+  background-image: url(/assets/Background_Contacts.png);
+  background-size: cover;
+  width: 100%;
+  header { 
+    margin-bottom: 48px;
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  }
+  a:hover { 
+    div span{ 
+    color: var(--font-blue);
+  }
+    img { 
+      content: url(/assets/icons/ArrowUpRightHover.svg);
+    }
+  .linkedin img:nth-child(1){ 
+    content: url(/assets/icons/LinkedinLogohover.svg);
+  }
+  .instagram img:nth-child(1){ 
+    content: url(/assets/icons/InstagramLogohover.svg);
+  }
+  .github img:nth-child(1){ 
+    content: url(/assets/icons/GithubLogohover.svg);
+  }
+  .email img:nth-child(1){ 
+    content: url(/assets/icons/EnvelopeSimplehover.svg);
+  }
+  
+  
+
+  }  
+}
+
+.redes-sociais {
+  display: grid;
+  justify-content: center;
+}
+
+.rede-social { 
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  background-color: var(--font-gray300);
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  color: var(--font-gray500);
+  span {
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 12px;
+
+  }
+
+}
